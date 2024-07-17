@@ -1,0 +1,259 @@
+.body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.top-navbar {
+  padding: 10px;
+  margin: 0;
+}
+.top-nav-span {
+  margin-left: 120px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  font-style: normal;
+  margin: auto;
+  text-align: center;
+  padding: 0 10px 0 10px;
+}
+.up-icon {
+  color: #00c6a6;
+  margin-right: 6px;
+}
+
+.nav-icon {
+  color: white;
+  margin-right: 6px;
+}
+
+.navbar {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  justify-content: space-between;
+  background-color: #00c6a6;
+}
+
+.nav-span-left {
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  padding: 34px 28px 34px 28px;
+}
+
+.nav-div {
+  color: white;
+  text-align: center;
+
+  padding: 34px 28px 34px 28px;
+}
+
+.nav-span {
+  padding: 8px;
+}
+
+.hero-sec-div {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hero-sec-play-icon {
+  margin-top: 80px;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #00c6a6;
+}
+
+.hero-section {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-left: 150px;
+}
+
+.hero-sec-h1 {
+  color: #1e1e1e;
+  padding-top: 140px;
+  font-size: 20px;
+}
+
+.hero-sec-button {
+  background-color: #1e1e1e;
+  width: 120px;
+  margin-top: 30px;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.appointment-sec-button {
+  background-color: #1e1e1e;
+  width: 120px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.book-appointment {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 70px 180px;
+}
+
+.book-appointment-inner {
+  padding: 50px;
+}
+
+.book-appointment-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px;
+}
+.forms-upper-sec {
+  display: flex;
+}
+.ba-span {
+  padding: 10px 5px 5px 0;
+}
+
+.ba-lable {
+  font-family: "Roboto", sans-serif;
+  font-weight: 450;
+  font-style: normal;
+  font-size: 17px;
+}
+
+.ba-input {
+  padding: 0 10px;
+  border-radius: 3px;
+  width: 260px;
+  height: 31px;
+  border: 1px solid #00c6a6;
+  margin-top: 5px;
+}
+
+#phone::placeholder {
+  color: #00c6a6;
+}
+
+/* placeholder text style */
+input[type="date"]::-webkit-datetime-edit-text,
+input[type="date"]::-webkit-datetime-edit-month-field,
+input[type="date"]::-webkit-datetime-edit-day-field,
+input[type="date"]::-webkit-datetime-edit-year-field {
+  color: #00c6a6;
+}
+
+@media (max-width: 768px) {
+  .book-appointment {
+    margin: 30px 20px;
+  }
+
+  .book-appointment-inner {
+    padding: 30px;
+  }
+
+  .forms-upper-sec {
+    display: block;
+    margin-top: 10px;
+  }
+
+  .ba-span {
+    display: block;
+    padding: 10px 0;
+    width: 100%;
+  }
+
+  .ba-input {
+    width: 100%;
+  }
+
+  .hero-sec-button {
+    width: 100%;
+    text-align: center;
+  }
+
+  .top-navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .top-nav-span {
+    display: block;
+    margin: 5px 0;
+    text-align: center;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-span-left,
+  .nav-div .nav-span {
+    padding: 10px 20px;
+  }
+
+  .nav-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .book-appointment {
+    margin: 20px 10px;
+  }
+
+  .book-appointment-inner {
+    padding: 20px;
+  }
+
+  .ba-lable {
+    font-size: 15px;
+  }
+
+  .book-appointment-title {
+    font-size: 20px;
+  }
+
+  .ba-input {
+    height: 28px;
+  }
+
+  .top-nav-span {
+    font-size: 14px;
+  }
+
+  .nav-span-left {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+
+  .nav-div .nav-span {
+    padding: 10px 15px;
+  }
+
+  .navbar img {
+    width: 40px;
+    padding: 5px 10px 5px 20px;
+  }
+}
